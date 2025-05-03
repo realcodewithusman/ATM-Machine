@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atm Machine</title>
+    <link rel="stylesheet" href="Atm.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="heading">Welcome to Atm Machine</h1>
+    </header>
+    <div class="maincontainer">
+        <aside id="aside1">
+            <h1 id="aside">Enjoy your <br> life, <br> Your money <br> is safe</h1>
+        </aside>
+        <aside id="aside2">
+            <div class="container">
+                <h2>Atm Machine</h2>
+                <p>Your current balance is: <span id="netbalance"><strong>0</strong></span> </p>
+                <div id="amount">
+                    <input type="number" name="" id="number" placeholder="Enter amount">
+                </div>
+                <div class="button">
+                    <span id="deposite">
+                        <button onclick="deposit()" id="btn1">Deposite</button>
+                    </span>
+                    <span id="withdraw">
+                        <button onclick="withdraw()" id="btn2">Withdraw</button>
+                    </span>
+                </div>
+            </div>
+        </aside>
+
+
+    </div>
+    <script src="Atm.js"></script>
+</body>
+
+</html>
